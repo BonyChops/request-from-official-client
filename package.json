@@ -1,0 +1,27 @@
+{
+  "name": "request-from-official-client",
+  "version": "1.0.0",
+  "description": "公式クライアントからのリクエストかどうかを判定するサンプル",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonyChops/request-from-official-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonyChops/request-from-official-client/issues"
+  },
+  "homepage": "https://github.com/BonyChops/request-from-official-client#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.11.0",
+    "pino-pretty": "^9.1.1"
+  }
+}
